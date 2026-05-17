@@ -10,7 +10,7 @@ function sirModel!(du, u, p, t)
     du[3] = Gamma * I
 end
 
-function solveSIRModel()
+function jlFunc2()
     # Toy initial conditions
     Beta  = 0.5
     Gamma = 0.2
