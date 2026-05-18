@@ -39,5 +39,3 @@ function jlFunc1()
     CSV.write(outName, out_df)
     faasr_put_file(outName, outName)
 end
-
-solveSIRModel()
